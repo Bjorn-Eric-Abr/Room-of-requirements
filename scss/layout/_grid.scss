@@ -1,0 +1,21 @@
+*[class^="layout--unit"] {
+  @include span(12);
+}
+.layout--line {
+	@include container;
+}
+.layout--unit-full {
+	@include span(12);
+}
+.layout--unit-6 {
+  @include at-breakpoint( $small) {
+    @include span (6);
+  }
+  @include at-breakpoint( $large) {
+    @include span (4);
+  }
+}
+
+.bellow-4 {
+	padding-bottom: 4 * $baseline;
+}

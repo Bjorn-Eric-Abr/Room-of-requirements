@@ -1,0 +1,105 @@
+// S E U              
+$primary : #424242;
+$gray : #EEEEEE;
+$gray400 : #BDBDBD;
+$accent: #F44336;
+
+//antal columner vid maxbredd
+$number-of-columns : 4;
+
+// F Ö R  M E N Y N
+//
+.menu-trigger {
+  display: inline-block;
+  a {
+    display: block;
+    text-decoration: none;
+    width: auto;
+    color: #444;
+    width: $baseline*3;
+  }
+}
+
+.menu-bar {
+  position: relative;
+  width: 100%;
+  .menu-bar-head {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .logo,
+  .menu-trigger {
+    width: auto;
+    float: left;
+  }
+  .logo {
+    margin-top: $baseline;
+  }
+  .menu-trigger {
+    padding: 1.5rem;
+    display: block;
+    // comment out för att få MENU till vänster
+    // float: left;
+    float: right;
+  }
+}
+
+.primary-menu {
+  margin: 0;
+  padding: 1rem;
+  background: white;
+  border-bottom: 2px solid $accent;
+}
+
+.menu-container {
+  // en max-width här kommer sätta bredden på menyn
+  // funkar med .line
+  position: relative;
+}
+.primary-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 1140px;
+  margin: 0 auto;
+    &-hidden {
+    display: none;
+  }
+}
+.menu-container a {
+  color: $primary;
+  text-decoration: none;
+}
+.sub-menu {
+  padding-top: 0.5rem;
+  li:last-child {
+    margin-bottom: 2rem;
+  }
+}
+
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+  @include media(">tablet") {
+    width: 100% / $number-of-columns * 2;
+  }
+  @include media(">desktop") {
+    width: 100% / $number-of-columns;
+  } 
+  width: 100%;
+  display: inline-block;
+  float: left;
+  padding-right: 1rem;
+}
+
+li ul {
+  padding-left: 0;
+}
+
+li li {
+  // tar bort första radens rubrikiga VERSALER
+  text-transform: none;
+  display: block;
+  width: 100%;
+}

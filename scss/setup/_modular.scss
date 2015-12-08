@@ -1,0 +1,10 @@
+//
+//		Modular scale
+//
+$ms-base: 1rem;
+$ms-ratio: 1.5;
+
+$ms-1: $ms-base * $ms-ratio;
+$ms-2: $ms-1 * $ms-ratio;
+$ms-3: $ms-2 * $ms-ratio;
+$ms-4: $ms-3 * $ms-ratio;

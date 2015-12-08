@@ -1,0 +1,56 @@
+//
+//    VARIABLES
+//
+
+/* Lirk setup */
+
+$basefont: 18 / 16 * 1rem;
+$baseline: 14 / 16 * 1rem;
+//
+$max-width: 960px;
+$columns: 12;
+$padding: $baseline;
+$bellow: 0px;
+
+/* Type */
+
+//
+$font-stack: "futura-pt",
+Futura,
+'Trebuchet MS',
+Helvetica,
+Arial,
+sans-serif;
+
+/*  Colors */
+
+$primary: #F50057;
+$secondary: #2dad80;
+$accent: yellow;
+$background: #E0E0E0;
+$darkGray: #565656;
+$lightGray: #9E9E9E;
+
+/* Breakpoints */
+
+
+/* For optimal user experience, Material user interfaces should 
+adapt layouts for the following breakpoint widths: 
+480, 600, 840, 960, 1280, 1440, and 1600dp. 
+https://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
+*/
+
+$small: 40rem; // 640px  laptop (everything above is mobile first and not specified)
+$medium: 60em; // 960px    desktop
+$large: 80em; // 1280px   big screen
+$huge: 90rem; // 1440px		huge screen (edge case if max-width not set on container)
+
+//
+//		Lagt till saker för att gå över till @include media (( http://include-media.com/ ))
+//
+$breakpoints: (
+  'small': 640px,
+  'medium': 960px,
+  'large': 1280px,
+  'huge': 1440px
+) !default;
