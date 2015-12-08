@@ -36,7 +36,7 @@ $number-of-columns : 4;
     margin-top: $baseline;
   }
   .menu-trigger {
-    padding: 1.5rem;
+    padding: $baseline;
     display: block;
     // comment out för att få MENU till vänster
     // float: left;
