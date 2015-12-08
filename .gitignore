@@ -1,0 +1,6 @@
+.sass-cache
+.icon
+.ds-store
+.DS_Store
+bower_components/*
+bower_components/
