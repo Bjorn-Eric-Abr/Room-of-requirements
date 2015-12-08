@@ -353,7 +353,7 @@ p {
     text-decoration: none;
     width: auto;
     color: #444;
-    width: 2.625rem; }
+    margin-top: -1.75rem; }
 
 /* line 23, scss/layout/_moist-menu.scss */
 .menu-bar {
