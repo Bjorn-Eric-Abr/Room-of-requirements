@@ -81,10 +81,10 @@ $number-of-columns : 4;
 li {
   list-style-type: none;
   text-transform: uppercase;
-  @include media(">tablet") {
+  @include media(">small") {
     width: 100% / $number-of-columns * 2;
   }
-  @include media(">desktop") {
+  @include media(">large") {
     width: 100% / $number-of-columns;
   } 
   width: 100%;

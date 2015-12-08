@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  @include sassline( $ms-4, 1.1, 5);
+  @include sassline( $ms-4, 0.1, 5);
 	padding-bottom: $baseline * 5;
 	font-weight: 400;
 }

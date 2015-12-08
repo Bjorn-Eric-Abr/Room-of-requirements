@@ -420,11 +420,11 @@ li {
   display: inline-block;
   float: left;
   padding-right: 1rem; }
-  @media (min-width: 769px) {
+  @media (min-width: 641px) {
     /* line 81, scss/layout/_moist-menu.scss */
     li {
       width: 50%; } }
-  @media (min-width: 1025px) {
+  @media (min-width: 1281px) {
     /* line 81, scss/layout/_moist-menu.scss */
     li {
       width: 25%; } }
@@ -600,8 +600,8 @@ h1 {
   margin: 0;
   font-size: 5.0625rem;
   line-height: 4.375rem;
-  padding-top: 1.1rem;
-  margin-bottom: -1.1rem;
+  padding-top: 0.1rem;
+  margin-bottom: -0.1rem;
   padding-bottom: 4.375rem;
   font-weight: 400; }
 

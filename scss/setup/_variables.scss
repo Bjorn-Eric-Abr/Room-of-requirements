@@ -49,8 +49,8 @@ $huge: 90rem; // 1440px		huge screen (edge case if max-width not set on containe
 //		Lagt till saker för att gå över till @include media (( http://include-media.com/ ))
 //
 $breakpoints: (
-  'small': 640px,
-  'medium': 960px,
-  'large': 1280px,
-  'huge': 1440px
-) !default;
+  small: 640px,
+  medium: 960px,
+  large: 1280px,
+  huge: 1440px
+) ;
